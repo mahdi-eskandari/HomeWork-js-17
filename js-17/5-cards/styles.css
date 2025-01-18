@@ -1,28 +1,113 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cardSelected {
+
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-style: italic;
 }
+
+
+
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 140px;
+    /* margin: 3px; */
+
+
 }
 
 .card {
-    width: 300px;
-    height: 350px;
-    margin: 5px;
-    background-color: rgb(68, 66, 71);
-    border-radius: 30px;
+
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+
 }
 
-img{
-    margin: 20px;
-    border-radius: 20px;
-    
+.cardtop {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    background-color: rgb(63, 58, 70);
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    width: 22rem;
+    height: auto;
+}
+
+.cardbottom {
+    background-color: rgb(63, 58, 70);
+    /* width: 22rem; */
+    /* height: 8rem; */
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+
+}
+
+
+.cardtop img {
+
+    /* text-align: left; */
+    border-radius: 3%;
+    margin-top: 20px;
+    border-radius: 10%;
+
+}
+
+.secondimg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.secondimg:hover {
+    border-radius: 100%;
+}
+
+.bt {
+
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(63, 58, 70);
+    margin-top: 2.2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border: rgb(72, 31, 167) solid 4px;
+    color: rgb(214, 210, 210);
+    font-size: 0.8rem;
+}
+
+.bt:hover {
+    background-color: rgb(72, 31, 167);
+}
+
+
+.text {
+
+    font-weight: bold;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(214, 210, 210);
+    font-size: 1rem;
 }
